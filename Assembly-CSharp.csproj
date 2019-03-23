@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{371D683B-6A55-D4FD-17ED-8D6CBFE1E754}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_3;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\OneSignal\src\MiniJSON.cs" />
+     <Compile Include="Assets\OneSignal\src\OneSignal.cs" />
+     <Compile Include="Assets\OneSignal\src\OneSignalAndroid.cs" />
+     <Compile Include="Assets\OneSignal\src\OneSignalIOS.cs" />
+     <Compile Include="Assets\OneSignal\src\OneSignalPlatform.cs" />
+     <Compile Include="Assets\OneSignal\src\OneSignalWPWNS.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Exceptions\NoConnectionException.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonAnimator.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonAny.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonAudioClip.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonBundle.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonCache.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonCharacter.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonCharactersPage.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonEnvironment.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonForeign.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonFriendRequest.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonImage.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonInstance.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonMainPage.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonMojo.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonSelf.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonSkybox.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonSoundtrack.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonSoundtracksPage.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Json\JsonUser.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Tools\Content.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Tools\EventListener.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Tools\OnTouchListener.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Tools\PhysicsListener.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Tools\Switch.cs" />
+     <Compile Include="Assets\Scripts\Abstract\Tools\Task.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIComponent.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIContainer.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIDictionary.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIIdle.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIImage.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIList.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIPage.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIPanel.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIScroll.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIState.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UISwitch.cs" />
+     <Compile Include="Assets\Scripts\Abstract\UI\UIText.cs" />
+     <Compile Include="Assets\Scripts\Agents\Initializers\AppInitializer.cs" />
+     <Compile Include="Assets\Scripts\Agents\Initializers\EventInitializer.cs" />
+     <Compile Include="Assets\Scripts\Agents\Initializers\SystemInitializer.cs" />
+     <Compile Include="Assets\Scripts\Agents\Renderers\UIListRenderer.cs" />
+     <Compile Include="Assets\Scripts\Agents\Renderers\UIPageRenderer.cs" />
+     <Compile Include="Assets\Scripts\Agents\Renderers\UIRenderer.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\ContentDownloader.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\DownCounter.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\EventRegistrar.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\HttpPostRequestSender.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\HttpRequestSender.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\ImageManager.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\KeyboardOpener.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\Preloader.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\Previewer.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\StateBroadcaster.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\StateSwitcher.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\Suspender.cs" />
+     <Compile Include="Assets\Scripts\Agents\Tools\ZipExtractor.cs" />
+     <Compile Include="Assets\Scripts\App.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreAgent.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreCoroutine.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreCrossPlatformAgent.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreFeedBackAgent.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreFeedBackCoroutine.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreFeedBackProcessor.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreFeedBackServant.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreMaterial.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreProcessor.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreRecursive.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreResult.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreServant.cs" />
+     <Compile Include="Assets\Scripts\Core\CoreWebRoutine.cs" />
+     <Compile Include="Assets\Scripts\Repository\Cache.cs" />
+     <Compile Include="Assets\Scripts\Repository\Config.cs" />
+     <Compile Include="Assets\Scripts\Repository\Conversions.cs" />
+     <Compile Include="Assets\Scripts\Repository\Directives.cs" />
+     <Compile Include="Assets\Scripts\Repository\Enums.cs" />
+     <Compile Include="Assets\Scripts\Repository\Events.cs" />
+     <Compile Include="Assets\Scripts\Repository\Media.cs" />
+     <Compile Include="Assets\Scripts\Repository\MonoBridge.cs" />
+     <Compile Include="Assets\Scripts\Repository\Objects.cs" />
+     <Compile Include="Assets\Scripts\Repository\Styles.cs" />
+     <Compile Include="Assets\Scripts\Repository\Variables.cs" />
+     <Compile Include="Assets\Scripts\UI\ListItems\listCharactersItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ListItems\listForeignFriendsItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ListItems\listFriendRequestsItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ListItems\listFriendsItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ListItems\listInboxItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ListItems\listItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ListItems\listMainItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ListItems\listSoundtracksItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Lists\listAddFriend.cs" />
+     <Compile Include="Assets\Scripts\UI\Lists\listCharacters.cs" />
+     <Compile Include="Assets\Scripts\UI\Lists\listFriendPicker.cs" />
+     <Compile Include="Assets\Scripts\UI\Lists\listFriendRequests.cs" />
+     <Compile Include="Assets\Scripts\UI\Lists\listFriends.cs" />
+     <Compile Include="Assets\Scripts\UI\Lists\listInbox.cs" />
+     <Compile Include="Assets\Scripts\UI\Lists\listMain.cs" />
+     <Compile Include="Assets\Scripts\UI\Lists\listSoundtracks.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageAbout_1.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageAbout_2.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageAbout_3.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageAbout_4.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageAbout_5.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageAddFriend.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageCharacters.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageError.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageFriendPicker.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageFriendRequests.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageFriends.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageInbox.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageLogout.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageMain.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageMessage.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageProfile.cs" />
+     <Compile Include="Assets\Scripts\UI\Pages\pageSoundtracks.cs" />
+     <Compile Include="Assets\Scripts\UI\Panels\pnlApp.cs" />
+     <Compile Include="Assets\Scripts\UI\Panels\pnlBottomBar.cs" />
+     <Compile Include="Assets\Scripts\UI\Panels\pnlFrame.cs" />
+     <Compile Include="Assets\Scripts\UI\Panels\pnlKeyboard.cs" />
+     <Compile Include="Assets\Scripts\UI\Panels\pnlMain.cs" />
+     <Compile Include="Assets\Scripts\UI\Panels\pnlPreviewFrame.cs" />
+     <Compile Include="Assets\Scripts\UI\Panels\pnlSplash.cs" />
+     <Compile Include="Assets\Scripts\UI\Panels\pnlTopBar.cs" />
+     <None Include="Assets\Plugins\Android\OneSignalConfig\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\OneSignalConfig\AndroidManifestTemplate.xml" />
+     <None Include="Assets\Plugins\Android\OneSignalConfig\README.txt" />
+     <None Include="Assets\JsonDotNet\link.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\FacebookSDK\link.xml" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.23.0.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>C:/Users/CIT/Dropbox/Mojo Test/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>C:/Users/CIT/Dropbox/Mojo Test/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/CIT/Dropbox/Mojo Test/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="OneSignalSDK_WP_WNS">
+ <HintPath>C:/Users/CIT/Dropbox/Mojo Test/Assets/OneSignal/Platforms/OneSignalSDK_WP_WNS.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zip.Unity">
+ <HintPath>C:/Users/CIT/Dropbox/Mojo Test/Assets/References/Ionic.Zip.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

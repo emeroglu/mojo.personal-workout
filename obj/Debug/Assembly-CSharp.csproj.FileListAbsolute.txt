@@ -1,0 +1,69 @@
+C:\Users\CIT\Dropbox\Mojo\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Ionic.Zip.Unity.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEditor.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.xml
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEditor.xml
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\CIT\Dropbox\Mojo\Temp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\CIT\Dropbox\Mojo\obj\Debug\Assembly-CSharp.dll
+C:\Users\CIT\Dropbox\Mojo\obj\Debug\Assembly-CSharp.pdb
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Facebook.Unity.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Facebook.Unity.Settings.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Ionic.Zip.Unity.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\OneSignalSDK_WP_WNS.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEditor.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.xml
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEditor.xml
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\CIT\Dropbox\Mojo Test\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\CIT\Dropbox\Mojo Test\obj\Debug\Assembly-CSharp.dll
+C:\Users\CIT\Dropbox\Mojo Test\obj\Debug\Assembly-CSharp.pdb
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Users\CIT\Dropbox\Mojo Test\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
